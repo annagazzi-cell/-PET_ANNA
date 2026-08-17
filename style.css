@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    display: inline-block;
+}
+
+nav{
+    display: inline-block;
+}
+
+header{
+    margin: 30px 0px 144px 70px;
+}
+
+a{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 25px;
+    cursor: pointer;
+    color: #1F2833;
+    transition:opacity 0.2;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.botaoL{
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    background: #2A4770;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(217, 224, 230);
+    transition:opacity 0.2;
+}
+
+.botaoL:hover{
+    opacity: 0.8;
+
+}
