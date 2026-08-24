@@ -40,11 +40,114 @@ a:hover{
     border: none;
     font-size: 20px;
     font-weight: 600;
-    color: rgb(217, 224, 230);
-    transition:opacity 0.2;
+    color: #E6EBFF;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    transition:opacity 0.2s;
 }
 
 .botaoL:hover{
     opacity: 0.8;
 
+}
+
+.logo{
+    width: 40%;
+    vertical-align: middle;
+}
+
+.texto{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5%;
+    text-align: left;
+}
+
+main{
+    text-align: center;
+}
+
+.botaoE{
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #C7427F;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #E6EBFF;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    transition: opacity 0.3s;
+}
+
+.botaoE:hover{
+    opacity: 0.8;
+}
+
+.titulo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #515151;
+}
+
+.subtitulo{
+    font-size: 30px;
+    color: #515151;
+    line-height: 60px;
+}
+
+.paragrafo{
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 20px;
+    color: #848484;
+    text-align: justify;
+    margin: 20px 0 30px 0;
+    max-width: 500px;
+}
+
+footer{
+    text-align: center;
+    background: #f4f4f4;
+    padding: 60px;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+@media (max-width:768px) {
+    header{
+    margin: 30px 0px 65px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 5px;
+}
+
+.botaoL{
+    width: 85px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.logo{
+    width: 40%;
+    display:block;
+    margin: 0 auto 50px auto;
+}
+
+.texto{
+    width: 80%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 30px;
+}
 }
