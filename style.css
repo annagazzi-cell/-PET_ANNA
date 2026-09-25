@@ -120,18 +120,44 @@ footer {
 .img-dog {
     display: block;
     width: 60%;
+    max-width: 800px;
     height: 450px;
     object-fit: cover;
     margin: 80px auto 0 auto;
     border-radius: 15px;
 }
 
+.servicos{
+  padding: 10px 0 100px 0;
+}
+
+.h2-servicos{
+  font-weight: 500;
+}
+
+.preco{
+
+}
+
 .lista-servicos{
-    width: 240px;
+    width: 250px;
+    display: block;
+    text-decoration: none;
+    color: #1F2833;
+    border: 2px solid;
+    margin: 0 60px;
+    padding: 20px 0;
+    border-radius: 15px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.lista-servicos:hover{
+    box-shadow: 0 2px 5px rgb(190, 82, 127);
+    transform: translateY(-2px);
 }
 
 .img-card{
-   width: 100%;
+   width: 80%;
 }
 
 @media (max-width:768px) {
@@ -168,5 +194,16 @@ footer {
 
     .titulo {
         font-size: 30px;
+    }
+
+    .h2-servicos {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .lista-servicos {
+        width: 250px;
+        margin: 16px 10px;
+        padding: 16px 0;
     }
 }
