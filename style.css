@@ -14,12 +14,32 @@ nav {
 }
 
 header {
-    margin: 30px 0px 144px 70px;
+    margin: 0px 0px 144px 0px;
+    background-color: #f8f9fa;
+    padding: 20px 0 20px 0;
+    border-bottom: 3px solid #f0f0f0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nome{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.n1{
+    color: #d14385;
+}
+
+.n2{
+    color: #e280ae;
 }
 
 .link-menu {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     margin: 25px;
     cursor: pointer;
@@ -36,7 +56,7 @@ a:hover {
     width: 160px;
     height: 40px;
     border-radius: 30px;
-    background: #2A4770;
+    background: #1F2833;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -111,10 +131,11 @@ main {
 
 footer {
     text-align: center;
-    background: #f4f4f4;
-    padding: 60px;
+    background: #d14385;
+    padding: 80px 0 80px 0;
     font-size: 15px;
     margin-top: 100px;
+    color: #f0f0f0;
 }
 
 .img-dog {
@@ -136,7 +157,7 @@ footer {
 }
 
 .preco{
-
+    color: #d14385;
 }
 
 .lista-servicos{
@@ -144,7 +165,7 @@ footer {
     display: block;
     text-decoration: none;
     color: #1F2833;
-    border: 2px solid;
+    border: 2px solid#d14385;
     margin: 0 60px;
     padding: 20px 0;
     border-radius: 15px;
@@ -162,9 +183,13 @@ footer {
 
 @media (max-width:768px) {
     header {
-        margin: 30px 0px 65px 0px;
+        margin: 0px 0px 65px 0px;
         text-align: center;
         width: 100%;
+    }
+
+    .nome{
+        display: none;
     }
 
     a {
