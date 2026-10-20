@@ -14,11 +14,10 @@ nav {
 }
 
 header {
-    margin: 0px 0px 144px 0px;
+    margin: 0px 0px 130px 0px;
     background-color: #f8f9fa;
     padding: 20px 0 20px 0;
     border-bottom: 3px solid #f0f0f0;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -30,11 +29,11 @@ header {
 }
 
 .n1{
-    color: #d14385;
+    color: #c43670;
 }
 
 .n2{
-    color: #e280ae;
+    color: #e9afc2;
 }
 
 .link-menu {
@@ -56,7 +55,7 @@ a:hover {
     width: 160px;
     height: 40px;
     border-radius: 30px;
-    background: #1F2833;
+    background: #c43670;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -94,7 +93,7 @@ main {
     height: 45px;
     border-radius: 30px;
     cursor: pointer;
-    background: #d14385;
+    background: #c43670;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -110,13 +109,15 @@ main {
 .titulo {
     font-size: 50px;
     font-weight: 800;
-    color: #515151;
+    color: #f0f0f0;
+    background-color: #c43670;
+    border-radius: 10px;
 }
 
 .subtitulo {
-    font-size: 30px;
+    font-size: 40px;
     color: #515151;
-    line-height: 60px;
+    line-height: 40px;
 }
 
 .paragrafo {
@@ -131,7 +132,7 @@ main {
 
 footer {
     text-align: center;
-    background: #d14385;
+    background: #c43670;
     padding: 80px 0 80px 0;
     font-size: 15px;
     margin-top: 100px;
@@ -146,10 +147,18 @@ footer {
     object-fit: cover;
     margin: 80px auto 0 auto;
     border-radius: 15px;
+    border: 3px solid #c43670;
 }
 
 .servicos{
   padding: 10px 0 100px 0;
+}
+
+.titulo-s{
+    margin: -80px 50px 80px 50px;
+    color: #f0f0f0;
+    background-color: #c43670;
+    border-radius: 15px;
 }
 
 .h2-servicos{
@@ -157,7 +166,7 @@ footer {
 }
 
 .preco{
-    color: #d14385;
+    color: #c43670;
 }
 
 .lista-servicos{
@@ -165,7 +174,7 @@ footer {
     display: block;
     text-decoration: none;
     color: #1F2833;
-    border: 2px solid#d14385;
+    border: 2px solid #c43670;
     margin: 0 60px;
     padding: 20px 0;
     border-radius: 15px;
@@ -179,6 +188,25 @@ footer {
 
 .img-card{
    width: 80%;
+}
+
+.agenda {
+    width: 260px;
+    height: 40px;
+    border-radius: 15px;
+    background: #c43670;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f0f0f0;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: scale 0.2s;
+}
+
+.agenda:hover {
+    opacity: 0.8;
+    scale: 1.02;
+
 }
 
 @media (max-width:768px) {
@@ -220,6 +248,10 @@ footer {
     .titulo {
         font-size: 30px;
     }
+
+    .titulo-s{
+    margin: -35px 50px 80px 50px;
+}
 
     .h2-servicos {
         font-weight: 400;
